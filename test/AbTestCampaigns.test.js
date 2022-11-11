@@ -1,3 +1,6 @@
+/**
+ * @jest-environment node
+ */
 require('dotenv').config()
 
 const Helpers = require('../src/Helpers/Helpers');

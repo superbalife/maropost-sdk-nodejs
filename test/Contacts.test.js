@@ -1,3 +1,6 @@
+/**
+ * @jest-environment node
+ */
 require('dotenv').config()
 
 const Contacts = require('../src/Contacts');

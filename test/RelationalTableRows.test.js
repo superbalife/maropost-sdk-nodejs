@@ -1,3 +1,6 @@
+/**
+ * @jest-environment node
+ */
 require('dotenv').config()
 
 const RelationalTableRows = require('../src/RelationalTableRows');
