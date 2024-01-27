@@ -1,5 +1,5 @@
-const Api = require('./Abstractions/Api');
-const OperationResult = require('./Abstractions/OperationResult');
+const Api = require('./Abstractions/Api.cjs');
+const OperationResult = require('./Abstractions/OperationResult.cjs');
 
 class Contacts {
   

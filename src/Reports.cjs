@@ -1,5 +1,5 @@
-const Api = require('./Abstractions/Api');
-const Helpers = require('./Helpers/Helpers');
+const Api = require('./Abstractions/Api.cjs');
+const Helpers = require('./Helpers/Helpers.cjs');
 
 class Reports {
 

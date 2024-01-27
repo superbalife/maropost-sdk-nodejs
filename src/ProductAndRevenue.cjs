@@ -1,7 +1,7 @@
-const Api = require('./Abstractions/Api');
-const Helpers = require('./Helpers/Helpers');
-const OrderItemInput = require('./ResultTypes/OrderItemInput');
-const OperationResult = require('./Abstractions/OperationResult');
+const Api = require('./Abstractions/Api.cjs');
+const Helpers = require('./Helpers/Helpers.cjs');
+const OrderItemInput = require('./ResultTypes/OrderItemInput.cjs');
+const OperationResult = require('./Abstractions/OperationResult.cjs');
 
 class ProductAndRevenue {
   

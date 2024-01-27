@@ -1,8 +1,14 @@
 {
   "name": "maropost.api",
-  "version": "0.1.5",
+  "version": "0.1.12",
   "description": "This package provides programmatic access to several Maropost services.",
-  "main": "index.js",
+  "main": "index.cjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
   "scripts": {
     "test": "jest"
   },

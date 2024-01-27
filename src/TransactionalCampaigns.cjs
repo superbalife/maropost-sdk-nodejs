@@ -1,6 +1,6 @@
-const Api = require('./Abstractions/Api');
-const OperationResult = require('./Abstractions/OperationResult');
-const Helpers = require('./Helpers/Helpers');
+const Api = require('./Abstractions/Api.cjs');
+const OperationResult = require('./Abstractions/OperationResult.cjs');
+const Helpers = require('./Helpers/Helpers.cjs');
 
 class TransactionalCampaigns {
   /**

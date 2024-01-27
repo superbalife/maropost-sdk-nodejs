@@ -1,7 +1,7 @@
 const axios = require('axios');
 
-const Helpers = require('../Helpers/Helpers');
-const OperationResult = require('./OperationResult');
+const Helpers = require('../Helpers/Helpers.cjs');
+const OperationResult = require('./OperationResult.cjs');
 
 class Api {
 
